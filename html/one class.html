@@ -68,7 +68,7 @@
 
         // }
         // var n = parseInt(window.prompt('input'));
-        var n = parseInt(window.prompt('input'));
+        // var n = parseInt(window.prompt('input'));
         // n  的阶乘：
         //     var count = 1;
         //    for(var i = 1; i < n +1; i++) {
@@ -135,15 +135,67 @@
 //     }else{
 //         document.write(1);
 //     }
+// var count =  0;
+// for(var i = 1; i < 100; i++) {
+//     for(var j = 1; j < i; j++) {
+//         if(i % )
+//     }
+// }
+// 2 的n次幂：
+// var count = 1;
+// for(var i = 1; i < n + 1; i++) {
+//     count *= 2;
+// }
+// document.write(count);
+//  N 的阶乘：
+// var count = 1;
+// for(var i = 1; i < n + 1 ; i ++) {
+//     count *= i;
+// }
+// document.write(count);
 
 
-
-
-
-
-
-
-
+// var one,
+//     two,
+//     three;
+// one = n % 10;  
+// two = n % 100 - one   
+// three =n-(n % 100) 
+// n = one*100 + two + three/ 100;
+// document.write(n);   
+// 求100以内的质数（素数）；
+// var count = 0;
+// for(var i = 1; i < 100   ; i++) {
+//     for(var j = 1;  j <= i; j ++) {
+//         if(i % j == 0) {
+//             count ++;
+//         }
+//         if(j ==i && count == 2) {
+//             document.write(i + "  ");
+//         }
+//     }
+//     count = 0;
+// }
+// 因质数和合数是相对的  所以合数的方法就是这样的：
+var count = 0;
+for(var i = 0; i < 100; i++) {
+    for(var j = 1; j <= i; j++) {
+        if(i % j == 0) {
+            count ++;
+        }
+        if(j == i && count != 2) {
+            document.write(i +  "   ");
+        }
+    }
+    count =0;
+}
+// for(var i = 0; i < 100; i++) {
+//     if(i % 2 == 0) {
+//         document.write(i + " -- ");
+//     }
+// }
+// add  奇数
+// even 偶数
 
 
 
